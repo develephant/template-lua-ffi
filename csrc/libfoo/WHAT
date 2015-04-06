@@ -1,0 +1,8 @@
+libfoo 1.2.3 from https://libfoo.org/releases/ (Dong License)
+requires: zlib, xlib (mingw32 mingw64), ylib (linux32 linux64)
+
+Notes: 
+- you can write anything you want in here, only the first 2 lines are parsed.
+- link to where new versions of libfoo can be found, not to the homepage.
+- the requires line reads: xlib is only a dependency on windows, and ylib on linux (and zlib on all platforms).
+- only list actual binary dependencies (if any) on the second line, not Lua dependencies.
